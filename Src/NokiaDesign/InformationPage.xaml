@@ -1,0 +1,54 @@
+﻿<Page
+    x:Class="NokiaDesign.InformationPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid>
+        <StackPanel>
+            <TextBlock Text="About/ Information" FontSize="24" FontWeight="Bold" Margin="20" TextWrapping="Wrap"/>
+            <TextBlock Text="This is a prototype of the NokiaDesign UWP app." Margin="20,60,20,20" TextWrapping="Wrap"/>
+
+            <TextBlock Text="About the Nokia Design Archive" TextWrapping="Wrap"/>
+            <TextBlock Text="The Nokia Design Archive is a graphic and interactive portal designed by researchers from Aalto University in Finland. It currently hosts over 700 entries, curated from thousands of items donated by Microsoft Mobile Oy and representing over 20 years of Nokia’s design history — both seen and unseen. You can freely explore the archive, learn about designers’ experiences working in Nokia and discover interesting topics surrounding design and mobile technologies." TextWrapping="Wrap"/>
+
+            <TextBlock Text="The Network view shows the archive’s contents, organised by thematic collections and displayed according to their relationships with each other. The visualisation displays the entries organised according to collection – click on them to explore and understand them and their context in the design process." TextWrapping="Wrap"/>
+
+<TextBlock Text="collection network" FontStyle="Oblique"/>
+            <TextBlock Text="The Timeline view chronologically displays information on over 300 designers who worked simultaneously at Nokia Design. It includes the names of around 250 designers who documented anecdotes, recorded interviews or donated other data." TextWrapping="Wrap"/>
+
+            <TextBlock Text="story timeline" FontStyle="Oblique"/>
+<TextBlock Text="You will find Entries, Collections and Stories."/>
+
+            <TextBlock Text="Nokia Design Archive: entry" FontStyle="Oblique"/>
+            <TextBlock Text="Entry: A single input in the archive. It can be a presentation, an object, a report, a picture, a drawing or a video, for example. Each entry has a direct link to the Aalto Repository, where you can find the original archival content. Over 700 entries appear in this portal, but the entire Nokia Design Archive includes over 20,000 uncurated items and 959GB of born-digital files which can be searched for in the Aalto University Archives. Donations are still flowing from former Nokia designers, and we hope to continue both archival and research work long into the future." TextWrapping="Wrap"/>
+
+            <TextBlock Text="Nokia Design Archive: collection" FontStyle="Oblique"/>
+            <TextBlock Text="Collections: A curated group of entries related to a specific topic. Each collection has been created and described by our team of researchers and may contain links to published academic research around that topic." TextWrapping="Wrap"/>
+
+            <TextBlock Text="Nokia Design Archive: story" FontStyle="Oblique"/>
+            <TextBlock Text="Stories: Stories can include written anecdotes or recorded interviews with designers who worked at Nokia, or if there is no further information available they may simply document the years a designer worked in the company. Not all designers have an entry – the archive contains entries for around 40% of all designers who worked at Nokia during that time." TextWrapping="Wrap"/>
+
+            <TextBlock Text="Keep in mind that the entries in the Nokia Design Archive have been selected by our research team and are not necessarily representative of the thousands of entries that constitute the entire, uncurated archive. The intention of this portal is to allow students, researchers and the general public to explore, learn and discover. If you need more information or want to dive deeper into the original content, you can browse the uncurated online Aalto Repository." TextWrapping="Wrap"/>
+
+            <TextBlock Text="Use of Archive contents" FontStyle="Oblique"/>
+            <TextBlock Text="The Nokia Design Archive is publicly available online and in the Aalto Repository, with physical items stored in the Aalto University Archives. Please contact Aalto University Archives if you would like to request access to the physical archive." TextWrapping="Wrap"/>
+
+            <TextBlock Text="Archival material is licensed to Aalto University and can be used under attribution for research, education and museum purposes. Please attribute according to the following, when information is available: Name of designer, name of design, year, Aalto repository URL. Nokia Design Archive has been made possible by donations from Microsoft and designers." TextWrapping="Wrap"/>
+
+<TextBlock Text="We hope you enjoy exploring the Nokia Design Archive!"/>
+
+            <TextBlock Text="Contact" FontStyle="Oblique"/>
+<TextBlock Text="Aalto University Archives"/>
+<TextBlock Text="arkisto@aalto.fi"/>
+
+<TextBlock Text="Anna Valtonen"/>
+<TextBlock Text="Principal Investigator, Professor"/>
+
+<TextBlock Text="nokiadesignarchive@aalto.fi"/>
+
+            <TextBlock Text="Creators of Nokia Design Archive site" FontStyle="Oblique"/>
+<TextBlock Text="Lu Chen, Michel Nader Sayún and Kaisu Savola"/>
+<TextBlock Text="With the support from the Nokia Design Archive team and Aalto University Communications" Margin="20,60,20,20"/>
+      </StackPanel>
+    </Grid>
+</Page>
