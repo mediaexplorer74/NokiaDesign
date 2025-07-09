@@ -5,8 +5,6 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
     <Grid>
         <TextBlock Text="Network" FontSize="24" FontWeight="Bold" Margin="20"/>
-        <ScrollViewer Margin="20,60,20,20">
-            <StackPanel x:Name="NetworkContent"/>
-        </ScrollViewer>
+        <TextBlock Text="Network section coming soon." Margin="20,60,20,20"/>
     </Grid>
 </Page>

@@ -4,9 +4,14 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
     <Grid>
-        <TextBlock Text="Research" FontSize="24" FontWeight="Bold" Margin="20"/>
-        <ScrollViewer Margin="20,60,20,20">
-            <StackPanel x:Name="ResearchContent"/>
-        </ScrollViewer>
+        <TextBlock x:Name="HeaderText" Text="Research" FontSize="24" FontWeight="Bold" Margin="20"/>
+        <!--StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,60,0,0" Spacing="12">
+            <Button x:Name="BtnFirst" Content="&lt;&lt;" Click="BtnFirst_Click"/>
+            <Button x:Name="BtnPrev" Content="&lt;" Click="BtnPrev_Click"/>
+            <TextBlock x:Name="TxtProjectIndex" VerticalAlignment="Center" FontWeight="Bold" FontSize="16" Margin="8,0"/>
+            <Button x:Name="BtnNext" Content=">" Click="BtnNext_Click"/>
+            <Button x:Name="BtnLast" Content=">>" Click="BtnLast_Click"/>
+        </StackPanel-->
+        <WebView x:Name="MobileWebView" Margin="0,100,0,0" />
     </Grid>
 </Page>

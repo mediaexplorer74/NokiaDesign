@@ -1,0 +1,22 @@
+<Page
+    x:Class="NokiaDesign.ProjectsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid>
+        <TextBlock x:Name="HeaderText" Text="Projects" FontSize="24" FontWeight="Bold" Margin="20"/>
+        <ListView x:Name="ProjectsListView" Margin="20,60,20,20" SelectionChanged="ProjectsListView_SelectionChanged">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="ID: " FontWeight="Bold"/>
+                        <TextBlock Text="{Binding NodeId}" Margin="4,0,8,0"/>
+                        <TextBlock Text="{Binding Title}"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </Grid>
+</Page>
+
+

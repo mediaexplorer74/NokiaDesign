@@ -13,11 +13,11 @@
 
             <TextBlock Text="The Network view shows the archive’s contents, organised by thematic collections and displayed according to their relationships with each other. The visualisation displays the entries organised according to collection – click on them to explore and understand them and their context in the design process." TextWrapping="Wrap"/>
 
-<TextBlock Text="collection network" FontStyle="Oblique"/>
+            <TextBlock Text="collection network" FontStyle="Oblique"/>
             <TextBlock Text="The Timeline view chronologically displays information on over 300 designers who worked simultaneously at Nokia Design. It includes the names of around 250 designers who documented anecdotes, recorded interviews or donated other data." TextWrapping="Wrap"/>
 
             <TextBlock Text="story timeline" FontStyle="Oblique"/>
-<TextBlock Text="You will find Entries, Collections and Stories."/>
+            <TextBlock Text="You will find Entries, Collections and Stories."/>
 
             <TextBlock Text="Nokia Design Archive: entry" FontStyle="Oblique"/>
             <TextBlock Text="Entry: A single input in the archive. It can be a presentation, an object, a report, a picture, a drawing or a video, for example. Each entry has a direct link to the Aalto Repository, where you can find the original archival content. Over 700 entries appear in this portal, but the entire Nokia Design Archive includes over 20,000 uncurated items and 959GB of born-digital files which can be searched for in the Aalto University Archives. Donations are still flowing from former Nokia designers, and we hope to continue both archival and research work long into the future." TextWrapping="Wrap"/>
@@ -35,20 +35,20 @@
 
             <TextBlock Text="Archival material is licensed to Aalto University and can be used under attribution for research, education and museum purposes. Please attribute according to the following, when information is available: Name of designer, name of design, year, Aalto repository URL. Nokia Design Archive has been made possible by donations from Microsoft and designers." TextWrapping="Wrap"/>
 
-<TextBlock Text="We hope you enjoy exploring the Nokia Design Archive!"/>
+            <TextBlock Text="We hope you enjoy exploring the Nokia Design Archive!"/>
 
             <TextBlock Text="Contact" FontStyle="Oblique"/>
-<TextBlock Text="Aalto University Archives"/>
-<TextBlock Text="arkisto@aalto.fi"/>
+            <TextBlock Text="Aalto University Archives"/>
+            <TextBlock Text="arkisto@aalto.fi"/>
 
-<TextBlock Text="Anna Valtonen"/>
-<TextBlock Text="Principal Investigator, Professor"/>
+            <TextBlock Text="Anna Valtonen"/>
+            <TextBlock Text="Principal Investigator, Professor"/>
 
-<TextBlock Text="nokiadesignarchive@aalto.fi"/>
+            <TextBlock Text="nokiadesignarchive@aalto.fi"/>
 
             <TextBlock Text="Creators of Nokia Design Archive site" FontStyle="Oblique"/>
-<TextBlock Text="Lu Chen, Michel Nader Sayún and Kaisu Savola"/>
-<TextBlock Text="With the support from the Nokia Design Archive team and Aalto University Communications" Margin="20,60,20,20"/>
-      </StackPanel>
+            <TextBlock Text="Lu Chen, Michel Nader Sayún and Kaisu Savola"/>
+            <TextBlock Text="With the support from the Nokia Design Archive team and Aalto University Communications" Margin="20,60,20,20"/>
+        </StackPanel>
     </Grid>
 </Page>

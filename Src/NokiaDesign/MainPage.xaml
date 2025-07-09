@@ -6,14 +6,19 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <!-- Futuristic Menu Placeholder -->
+        <!-- Futuristic Menu -->
+        <!--local:RadialMenu x:Name="RadialMenuControl" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <Frame x:Name="ContentFrame" Margin="0,350,0,0"/-->
+
+        <!-- Hamburger Menu -->
         <SplitView x:Name="FuturisticMenu" DisplayMode="CompactInline" IsPaneOpen="True" OpenPaneLength="200" CompactPaneLength="56">
             <SplitView.Pane>
                 <StackPanel>
-                    <Button Content="&#xE80F; Information" Click="Information_Click"/>
-                    <Button Content="&#xE8D2; Research" Click="Research_Click"/>
-                    <Button Content="&#xE779; Network" Click="Network_Click"/>
-                    <Button Content="&#xE823; Chronology" Click="Chronology_Click"/>
+                    <Button Content="Information" Click="Information_Click"/>
+                    <Button Content="Projects" Click="Projects_Click"/>
+                    <Button Content="Research" Click="Research_Click"/>
+                    <Button Content="Network" Click="Network_Click"/>
+                    <Button Content="Chronology" Click="Chronology_Click"/>
                 </StackPanel>
             </SplitView.Pane>
             <SplitView.Content>

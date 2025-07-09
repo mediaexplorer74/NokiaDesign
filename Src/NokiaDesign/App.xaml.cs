@@ -24,7 +24,7 @@ namespace NokiaDesign
             {
                 if (rootFrame.Content == null)
                 {
-                    rootFrame.Navigate(typeof(MainPage), e.Arguments);
+                    rootFrame.Navigate(typeof(/*MainPage*/ResearchPage), e.Arguments);
                 }
                 Window.Current.Activate();
             }
